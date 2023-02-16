@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Ages Program</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="fotos/js.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Ages Program</h1>
+    </header>
+    <section>
+         
+          
+        
+        <div>
+            <p>What's your name?
+               <input type="text" name="nome" id="nome">
+            </p>
+            <p>Year birth date:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+        <p>Sex:
+        <!-- o nome dos dois radios tem que ser iguais, se não eu vou poder clicar nos dois -->
+            <input type="radio" name="radsex" id="masc">
+                <label for="masc">Male</label>
+            <input type="radio" name="radsex" id="fem">
+                <label for="fem">Female</label>
+        </p>
+        <p>
+            <input type="button" value="To Check" onclick="verificar()" id="botao">
+        </p>
+</div>
+        <div id="res">
+            Fill in all the data to see the results!
+        </div>
+    </section>
+    <footer>
+        
+        <p>&copy;JS</p>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
