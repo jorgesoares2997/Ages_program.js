@@ -37,7 +37,7 @@ function verificar(){
                     //young adult
                     img.setAttribute('src', 'fotos/jovemgaroto.png')
                 
-                }else if (idade <= 39){
+                }else if (idade <= 49){
                     //adult
                     img.setAttribute('src', 'fotos/homemadulto.png')
                 
@@ -76,7 +76,7 @@ function verificar(){
                 //young adult
                 img.setAttribute('src', 'fotos/jovemmoca.png')
             
-            }else if (idade <= 39){
+            }else if (idade <= 49){
                 //adult
                 img.setAttribute('src', 'fotos/mulheradulta.png')
             
